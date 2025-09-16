@@ -85,7 +85,7 @@ export default function Reservas() {
             </button>
           </form>
           <p className="text-emerald-600 text-sm mt-3 text-center">
-            ✅ Reserva confirmada exitosamente (simulada)
+            ✅ Reserva confirmada exitosamente
           </p>
         </div>
       )}
