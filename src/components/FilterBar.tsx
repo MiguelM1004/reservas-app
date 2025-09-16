@@ -27,9 +27,9 @@ const FilterBar: React.FC<FilterBarProps> = ({
           onChange={(e) => setFilterArea(e.target.value)}
           className="p-2 border border-gray-300 rounded-lg bg-white focus:ring-2 focus:ring-teal-500 focus:outline-none"
         >
-          <option value="">Todas las áreas de deporte</option>
-          <option value="Deportes">Deportes</option>
-          <option value="Recreación">Recreación</option>
+          <option value="">Todas las áreas</option>
+          <option value="Deportes">Disponible</option>
+          <option value="Recreación">No disponible</option>
         </select>
       </div>
 
