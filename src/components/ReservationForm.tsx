@@ -32,6 +32,24 @@ export default function ReservationForm({
       />
 
       <input
+        type="email"
+        placeholder="Correo electrónico"
+        value={formData.name}
+        onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+        required
+        className="w-full border border-gray-300 rounded-lg px-3 py-2 mb-3 focus:ring-2 focus:ring-teal-500 focus:outline-none"
+      />
+
+      <input
+        type="tel"
+        placeholder="Contacto"
+        value={formData.name}
+        onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+        required
+        className="w-full border border-gray-300 rounded-lg px-3 py-2 mb-3 focus:ring-2 focus:ring-teal-500 focus:outline-none"
+      />
+
+      <input
         type="date"
         value={formData.date}
         onChange={(e) => setFormData({ ...formData, date: e.target.value })}
